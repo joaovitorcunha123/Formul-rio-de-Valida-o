@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+margin:0;
+padding:0;
+}
+html body{
+  background-color: rgb(243, 243, 243);
+  width:100%;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.conteiner{
+max-width:100%;
+width:250px;
+
+}
+ small{
+  color:red;
+  padding:20px;
+  visibility: hidden;
+  position: relative;
+  bottom: 3px;
+ }
+
+
+/*botoes e icones*/
+.fa-eye{
+  width:20px;
+  position:relative;
+  top:6px;
+  right:30px;
+ 
+
+}
+.comafs{
+width:35px;
+border:1px solid rgb(169, 161, 161);
+height:25px;
+border-radius:1px;
+}
+.fa-user{
+font-size:small;
+color: rgb(123,117,117);
+
+}
+
+/*final*/
+
+/*inputes e password*/
+#password{
+width:199.7px;
+}
+.max , .password{
+height:25px;
+border:1px solid rgb(169, 161, 161);
+border-radius:1px;
+}
+/*final*/
+
+
+/*recuperar senha e novo usuário*/
+.link{
+text-decoration:none;
+font-size:small;
+position:relative;
+left:110px;
+color:rgb(136, 15, 136);
+ bottom:9px;
+}
+.link2{
+text-decoration:none;
+ color:rgb(136, 15, 136);
+font-size:small;
+position:relative;
+left:70px;
+
+}
+/*final*/
+
+.btn{
+width:202px;
+height:25px;
+background-color:rgb(85, 85, 241);
+border:0;
+border-radius:1px;
+color:white;
+}
+
+
+
+.form-control{
+padding:2px
+}
+
+span{
+ font-size:small;
+ position:relative;
+ left:90px;
+ bottom:9px;
+ 
+}
+.check{
+ position:relative;
+ left:80px;
+ bottom:6px
+}
+
+ .rei input{
+  border: 3px solid rgb(245, 75, 75) !important;
+  visibility: visible;
+ }
+ .rei small{
+  color: red;
+  visibility: visible;
+ }
+ 
+ .errormain input{
+  border: 3px solid rgb(53, 215, 53);
+  visibility: visible;
+ }
+
+
+.errorsmall{
+  color: red;
+  padding: 20px;
+}
+
+
+
+ .eyebory{
+position:relative;
+right:30px;
+top:1px;
+color:rgb(121, 117, 117);
+visibility: visible;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Poppins", sans-serif;
+  }
+   body{
+    background-color: rgb(255, 251, 251);
+    width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+
+  .box-conteiner{
+    max-width: 1000px;
+    width: 300px;
+    overflow: hidden;
+   
+
+}
+form{
+    padding-top:20px ;
+}
+
+#header{
+    background-color: rgb(119, 119, 234);
+    color: white;
+    text-align: center;
+    border-radius: 1px;
+    box-shadow:1px 1px 1px rgb(119, 119, 234);
+    height: 50px;
+    padding: 10px;
+    overflow: hidden;
+   
+    
+}
+
+fieldset{
+    height:20px;
+    border-top: none;
+    
+}
+#ddd{
+    width: 40px;
+}
+#telefone{
+   width: 255.5px;
+}
+
+.text{
+    max-width: 100%; 
+    display: block; 
+    padding-bottom: 10px;
+}
+small{
+    color: red;
+    font-size: x-small;
+    visibility: hidden;
+}
+
+.text input{
+    width: 300px;
+    padding: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(92, 188, 223);
+    box-shadow: 1px 1px 1px rgb(92, 188, 223);
+}
+
+
+
+
+
+.text.sucess input{
+    visibility: visible;
+border: 3px solid #2ecc71;
+
+}
+
+.text.error.marginal input{
+    visibility: visible;
+    border: 3px solid rgb(217, 80, 80) !important;
+}
+.text.error small{
+visibility: visible;
+}
+
+
+#voltar{
+    background-color: rgb(122, 122, 236);
+    padding: 5.7px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+    color: white;
+    left: 150px;
+    
+    
+}
+#cadastrar{
+    position: relative;
+    left: 130px;
+    height: 30px;
+    color: white;
+    background-color: rgb(122, 122, 236);
+    border: 0;
+    width: 70px;
+    border-radius: 2px;
+}
